@@ -50,7 +50,7 @@ class Auto:
                     if asiento.registro!=self.registro:
                         original=False
         
-        if original!=True:
+        if original!=False:
             return 'Las piezas no son originales”'
         else:
             return 'Auto original'
